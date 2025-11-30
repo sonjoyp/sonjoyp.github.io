@@ -10,4 +10,4 @@ author_profile: true
 
 #### Address:
 
-* [L.F. Peterson Building, 435 Nagle St, College Station, TX 77843](https://maps.app.goo.gl/ALbZdwMLnpJv7zp16)
+* [L.F. Peterson Building 230, 435 Nagle St, College Station, TX 77843](https://maps.app.goo.gl/ALbZdwMLnpJv7zp16)
