@@ -5,12 +5,8 @@
 # prevent it from being included in the site.
 
 main:
-
-  - title: "CV"
-    url: /files/Sonjoy_Kumar_Paul_CV.pdf
-
-  # - title: "Resume"
-  #   url: /files/Resume_Sonjoy_Kumar_Paul.pdf
+  - title: "Publications"
+    url: /publications/
 
   - title: "Education"
     url: /education/    
@@ -18,27 +14,20 @@ main:
   - title: "Experiences"
     url: /experiences/
 
-  - title: "Skills"
-    url: /skills/  
-
-  - title: "Publications"
-    url: /publications/
-
   - title: "Projects"
     url: /projects/
-   
-  #- title: "Undergraduate Thesis"
-  #  url: /files/Solving_Sudoku_as_a_Constraint_Satisfaction_Problem_Ugrad_Thesis.pdf
 
+  - title: "Skills"
+    url: /skills/  
+ 
   - title: "Leadership"
-    url: /leadership/ 
-
-  #- title: "Test Scores"
-  #  url: /standardized_test/      
+    url: /leadership/
 
   - title: "Contact"
     url: /contact/   
   
+  - title: "CV"
+    url: /files/Sonjoy_Kumar_Paul_CV.pdf
 
   # - title: "Talks"
   #   url: /talks/    
