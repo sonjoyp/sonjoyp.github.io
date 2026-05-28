@@ -31,10 +31,15 @@ body {
   box-shadow: 0 1px 6px rgba($maroon, 0.08);
 }
 
+/* the nav sits on the white masthead — keep it transparent so the bar
+   stays one uniform color (theme defaults it to the page background) */
+.greedy-nav {
+  background: transparent;
+}
+
 .greedy-nav a {
   font-weight: 600;
   letter-spacing: 0.2px;
-  position: relative;
 }
 
 /* site title (first, --lg item) a touch stronger */
@@ -42,20 +47,10 @@ body {
   font-weight: 700;
 }
 
-/* animated underline on nav links */
-.greedy-nav a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 0;
-  height: 2px;
+/* recolor the theme's built-in hover underline to maroon (don't add a second one) */
+.greedy-nav .visible-links a:before {
   background: $maroon-accent;
-  transition: width 0.2s ease-in-out;
-}
-
-.greedy-nav a:hover::after {
-  width: 100%;
+  height: 2px;
 }
 
 /*
