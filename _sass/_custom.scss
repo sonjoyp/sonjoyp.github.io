@@ -1,0 +1,223 @@
+/* ==========================================================================
+   CUSTOM POLISH  (Aggie Maroon theme)
+   Loaded last so it overrides Minimal Mistakes defaults.
+   ========================================================================== */
+
+$maroon         : $primary-color;          // #500000
+$maroon-accent  : #800020;                 // link / hover maroon
+$page-bg        : $background-color;        // warm off-white
+
+/*
+   Page background — subtle depth instead of flat white
+   ========================================================================== */
+
+body {
+  background-color: $page-bg;
+  background-image:
+    radial-gradient(circle at 0% 0%, rgba($maroon, 0.05), rgba($maroon, 0) 40%),
+    linear-gradient(180deg, #ffffff 0%, $page-bg 320px);
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+   Masthead — softer shadow, refined links
+   ========================================================================== */
+
+.masthead {
+  background: rgba(255, 255, 255, 0.92);
+  -webkit-backdrop-filter: saturate(180%) blur(8px);
+          backdrop-filter: saturate(180%) blur(8px);
+  border-bottom: 1px solid $border-color;
+  box-shadow: 0 1px 6px rgba($maroon, 0.08);
+}
+
+.greedy-nav a {
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  position: relative;
+}
+
+/* site title (first, --lg item) a touch stronger */
+.masthead__menu-item--lg a {
+  font-weight: 700;
+}
+
+/* animated underline on nav links */
+.greedy-nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background: $maroon-accent;
+  transition: width 0.2s ease-in-out;
+}
+
+.greedy-nav a:hover::after {
+  width: 100%;
+}
+
+/*
+   Sidebar author profile rendered as a clean card
+   ========================================================================== */
+
+.sidebar {
+  @include breakpoint($large) {
+    [itemtype$="Person"] {
+      padding: 1.25em 1.1em 1.5em;
+      background: #ffffff;
+      border: 1px solid $border-color;
+      border-top: 3px solid $maroon;
+      border-radius: 8px;
+      box-shadow: 0 4px 18px rgba($maroon, 0.07);
+    }
+  }
+}
+
+.author__avatar img {
+  border-radius: 50%;
+
+  @include breakpoint($large) {
+    border: 3px solid #fff;
+    box-shadow: 0 0 0 2px $maroon, 0 4px 12px rgba(0, 0, 0, 0.12);
+    padding: 0;
+  }
+}
+
+.sidebar .author__name {
+  font-weight: 700;
+  color: $maroon;
+}
+
+.author__bio {
+  color: mix(#000, #fff, 55%);
+}
+
+/* social / contact links in the sidebar */
+.author__urls {
+  a:hover {
+    color: $maroon-accent;
+    text-decoration: none;
+  }
+
+  .fa,
+  .fas,
+  .fab,
+  .far,
+  .ai {
+    color: $maroon;
+  }
+}
+
+/*
+   Headings & content
+   ========================================================================== */
+
+.page__title {
+  color: $maroon;
+  letter-spacing: -0.3px;
+}
+
+.page__content {
+  h2 {
+    color: mix(#000, $maroon, 8%);
+    border-bottom: 2px solid $border-color;
+    padding-bottom: 0.35em;
+    position: relative;
+  }
+
+  /* short maroon accent under each h2 */
+  h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 60px;
+    height: 2px;
+    background: $maroon;
+  }
+
+  h3 {
+    color: mix(#000, $maroon, 12%);
+  }
+
+  a {
+    text-decoration-color: rgba($maroon-accent, 0.35);
+    text-underline-offset: 2px;
+
+    &:hover {
+      text-decoration-color: $maroon-accent;
+    }
+  }
+}
+
+/*
+   Buttons — fix the theme's broken hover states, give a maroon identity
+   ========================================================================== */
+
+.btn:hover {
+  background-color: $maroon-accent;
+}
+
+.btn--inverse {
+  color: $maroon !important;
+  border: 1px solid $border-color !important;
+
+  &:hover {
+    color: #fff !important;
+    background-color: $maroon;
+    border-color: $maroon !important;
+  }
+}
+
+/*
+   Taxonomy chips / tags
+   ========================================================================== */
+
+.page__taxonomy-item {
+  transition: $global-transition;
+
+  &:hover {
+    color: #fff;
+    background-color: $maroon;
+    border-color: $maroon;
+  }
+}
+
+/*
+   Footer
+   ========================================================================== */
+
+.page__footer {
+  background-color: #fff;
+  border-top: 3px solid $maroon;
+  color: mix(#000, #fff, 45%);
+
+  a:hover {
+    color: $maroon-accent;
+    text-decoration: none;
+  }
+}
+
+/*
+   Archive / list items (publications, talks, etc.)
+   ========================================================================== */
+
+.archive__item-title {
+  a:hover {
+    color: $maroon-accent;
+  }
+}
+
+.archive__subtitle {
+  color: $maroon;
+  border-bottom: 1px solid $border-color;
+}
+
+/* selection color */
+::selection {
+  background: rgba($maroon-accent, 0.18);
+}
