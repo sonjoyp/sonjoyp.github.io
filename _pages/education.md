@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 ### Ph.D. in Computer Science
-> [<img src="https://sonjoyp.github.io/files/TAMU_Logo.png"  alt="Texas A&M University Logo" width="100px" height="100px">](https://www.tamu.edu/) <br>
+> [<img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Texas_A%26M_University_logo.svg"  alt="Texas A&M University Logo" width="100px" height="100px">](https://www.tamu.edu/) <br>
 > [Texas A&M University](https://www.tamu.edu/) (January 2024 - Present) [Transfer In] <br>
 > College Station, Texas, United States
 
