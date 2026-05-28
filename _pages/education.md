@@ -5,17 +5,17 @@ author_profile: true
 ---
 
 ### Ph.D. in Computer Science
-> [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Texas_A%26M_University_logo.svg/1246px-Texas_A%26M_University_logo.svg.png"  alt="Texas A&M University Logo" width="100px" height="100px">](https://www.tamu.edu/) <br>
+> [<img src="files/TAMU_logo.png"  alt="Texas A&M University Logo" width="100px" height="100px">](https://www.tamu.edu/) <br>
 > [Texas A&M University](https://www.tamu.edu/) (January 2024 - Present) [Transfer In] <br>
 > College Station, Texas, United States
 
 ### Ph.D. in Computer and Information Science
-> [<img src="https://umdearborn.edu/sites/default/files/styles/large/public/2023-05/UM-Dearborn_Logo-Hex.png" alt="University of Michigan-Dearborn Logo" width="100px" height="100px">](https://umdearborn.edu/) <br>
+> [<img src="files/UMDearborn_logo.png" alt="University of Michigan-Dearborn Logo" width="100px" height="100px">](https://umdearborn.edu/) <br>
 > [University of Michigan-Dearborn](https://umdearborn.edu/) (January 2023 - December 2023) [Transfer Out] <br>
 > Dearborn, Michigan, United States
 
 ### B.Sc. in Computer Science and Engineering
-> [<img src="https://upload.wikimedia.org/wikipedia/en/d/da/BUET_LOGO.svg" alt="Bangladesh University of Engineering and Technology Logo" width="100px" height="100px">](https://buet.ac.bd) <br>
+> [<img src="files/BUET_LOGO.svg" alt="Bangladesh University of Engineering and Technology Logo" width="100px" height="100px">](https://buet.ac.bd) <br>
 > [Bangladesh University of Engineering and Technology(BUET)](https://buet.ac.bd) (2013- 2017) <br>
 > Dhaka, Bangladesh
 
