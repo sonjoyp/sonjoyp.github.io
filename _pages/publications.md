@@ -15,6 +15,6 @@ author_profile: true
 ## 2025
 - **[Infrastructure Patterns in Toll Scam Domains: A Comprehensive Analysis of Cybercriminal Registration and Hosting Strategies](https://sonjoyp.github.io/assets/papers/Infrastructure_Toll_Scam_Munny_2025.pdf)**
   
-  *Morium Akter Munny, Mahbub Alam, Sonjoy Kumar Paul, Daniel Timko, Muhammad Lutfor Rahman, and Nitesh Saxena*  
+  *Morium Akter Munny, Mahbub Alam, Sonjoy Kumar Paul, Daniel Timko, Muhammad Lutfor Rahman, and Nitesh Saxena*
   
   In *[APWG’s Symposium on Electronic Crime Research (eCrime)](https://apwg.org/events/ecrime2025)*, November 2025.
