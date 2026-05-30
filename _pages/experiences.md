@@ -10,9 +10,13 @@ author_profile: true
 ***
 Responsibilities:
 - I am currently working under the guidance of [Dr. Nitesh Saxena](https://nsaxena.engr.tamu.edu/) at the [SPIES Research Lab](https://spies.engr.tamu.edu/).
-- Conducting advanced research in Neuro Security and Brainwave Privacy.
-- Investigating various privacy attacks and defenses on Brain-Computer Interface (BCI) devices.
-- Engaging in experimental design, data analysis, and the development of new methodologies to enhance the security of BCI devices.
+- Conducting advanced research in Cybersecurity, Neuro Security and Brainwave Privacy.
+- Co-authored SoK studies on AI-based phishing detection (USENIX Security 2026) and toll scam infrastructure (eCrime 2025).
+- Developed Cogni-Watch, a cognitive-aware security framework detecting warning miscomprehension in real time via gaze and cursor dynamics (under review).
+- Conducted EEG-based privacy attack research (BrainPhone): demonstrated passive speech/digit inference and identity snooping via consumer BCI headsets (under review).
+- Discovered three novel QR-/phone-based device-linking attacks on E2EE messengers (WhatsApp, Signal, Telegram); proposed Passkey-Anchored Linking defense (under review).
+- Co-authored FuzzCheck.AI SoK: evaluated 38 DNN fuzzers using six security metrics, revealing systemic gaps in high-severity failure discovery, reproducibility, and attack transferability (under review).
+- Co-developed PHANTOM, a multimodal CogSec framework linking cognitive fatigue to phishing susceptibility via EEG, eye-tracking, and behavioral signals; showed strong behavioral degradation but non-generalizable neuro-signatures (under review).
 
 
 ### Graduate Student Research Assistant, [University of Michigan-Dearborn](https://umdearborn.edu/cecs/departments/computer-and-information-science)
