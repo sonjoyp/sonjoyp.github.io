@@ -29,6 +29,6 @@ Furthermore, I hold a Bachelor's Degree in Computer Science and Engineering from
 
 - **September, 2017**: Graduated with a Bachelor's degree from the [Department of Computer Science and Engineering (CSE), BUET](https://cse.buet.ac.bd/).
 
-- **January, 2016**: Awarded 2nd Runner-up at the Software Project Show, **Int’l Conf. on Networking Systems and Security (NSysS), 2016**, for the Hall Management System project, recognized for its efficiency and usability.
+- **January, 2016**: Awarded 2nd Runner-up at the Software Project Show, **International Conference on Networking, Systems, and Security (NSysS), 2016**, for the Hall Management System project, recognized for its efficiency and usability.
 
 - **February, 2013**: Enrolled in the Bachelor's program in Computer Science and Engineering at [Bangladesh University of Engineering and Technology (BUET)](https://buet.ac.bd/), marking the beginning of my academic journey in computer science.
