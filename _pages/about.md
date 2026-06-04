@@ -14,7 +14,9 @@ My work has been published at venues including **USENIX Security** and the **APW
 
 Before my Ph.D. journey, I spent five years as a C++ software engineer (most recently Senior Software Engineer) at [CodeCrafters International Ltd.](https://www.codecraftersintl.com/), building large-scale portfolio-management and credit-analysis software — a codebase of over 2 million lines used by Fortune 500 firms. There I developed deep expertise in system design, code review, and efficient data structures. I hold a B.Sc. in Computer Science and Engineering from [Bangladesh University of Engineering and Technology (BUET)](https://www.buet.ac.bd/), Dhaka, Bangladesh.
 
-<span style="color:#500000"><strong>I am actively seeking internship/co-op opportunities starting Fall 2026</strong></span>, where I can bring together my research in cybersecurity, usable security, and applied ML with my industry software-engineering background. If you're hiring or think we might collaborate, please feel free to reach out — I'd love to connect!
+<div style="background-color:#f5f0f0; border-left:4px solid #500000; padding:10px 14px; margin:12px 0;">
+<strong>🔍 Actively seeking internship/co-op opportunities for Fall 2026.</strong> If you're hiring or think we might collaborate, I'd love to <a href="mailto:skpaul@tamu.edu">connect</a>!
+</div>
 
 ## News
 - **December, 2025:** Our paper *"[SoK: PHILTER: Uncovering Security and Functional Gaps in AI-based Phishing Website Detection Literature via an LLM-based Reasoning Framework](https://sonjoyp.github.io/assets/papers/SoK_PHILTER_Alam_2026.pdf)"* has been accepted to **35th USENIX Security Symposium, August 2026**.
