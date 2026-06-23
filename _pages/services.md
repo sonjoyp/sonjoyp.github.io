@@ -1,8 +1,23 @@
 ---
-title: "Leadership Activities"
-permalink: /leadership/
+title: "Honors & Activities"
+permalink: /services/
 author_profile: true
 ---
+
+## Awards
+
+- One-Way Travel Support for Higher Education in the USA, 2023 — Bangladesh Sweden Trust Fund
+- 2nd Runner-up, Software Project Show, International Conference on Networking, Systems, and Security (NSysS), 2016
+
+---
+
+## Professional Service
+
+- [Reviewer](https://docs.google.com/spreadsheets/d/13SeRMQIR4wsFn72BBJZG3wxBUW41Td6Q/edit?gid=48527255#gid=48527255&range=B1833:G1833), [The Web Conference (WWW)](https://www2026.thewebconf.org/), 2026
+
+---
+
+## Leadership Activities
 
 ### President, Executive Committee (2016-17), Students Co-operative Organization (SCO)
 #### Kaliganj, Jhenaidah, Bangladesh
