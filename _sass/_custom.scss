@@ -25,7 +25,9 @@ body {
    ========================================================================== */
 
 .masthead {
-  background: var(--maroon-surface);
+  /* match the page background so the bar and its nav items are one uniform
+     color; separation comes from the border + subtle shadow, not a color seam */
+  background: var(--global-bg-color);
   border-bottom: 1px solid var(--global-border-color);
   box-shadow: 0 1px 6px var(--maroon-tint);
 }
@@ -205,6 +207,24 @@ body {
 .archive__subtitle {
   color: var(--maroon-text);
   border-bottom: 1px solid var(--global-border-color);
+}
+
+/*
+   Highlighted callout box (e.g. the availability notice) — theme-aware so it
+   stays readable in dark mode instead of using a hardcoded light background
+   ========================================================================== */
+
+.callout {
+  background-color: var(--maroon-callout-bg);
+  border-left: 4px solid var(--maroon);
+  border-radius: 4px;
+  padding: 10px 14px;
+  margin: 12px 0;
+  color: var(--global-text-color);
+
+  a {
+    color: var(--global-link-color);
+  }
 }
 
 /* selection color */
