@@ -1,21 +1,20 @@
 /* ==========================================================================
    CUSTOM POLISH  (Aggie Maroon theme)
-   Loaded last so it overrides Minimal Mistakes defaults.
+   Imported last from assets/css/main.scss so it overrides theme defaults.
+   Colors are driven by the --maroon-* / --global-* custom properties defined
+   in _sass/theme/_maroon_light.scss and _maroon_dark.scss, so this works in
+   both the light and dark variants of the toggle.
    ========================================================================== */
 
-$maroon         : $primary-color;          // #500000
-$maroon-accent  : #800020;                 // link / hover maroon
-$page-bg        : $background-color;        // warm off-white
-
 /*
-   Page background — subtle depth instead of flat white
+   Page background — subtle depth instead of a flat fill
    ========================================================================== */
 
 body {
-  background-color: $page-bg;
+  background-color: var(--global-bg-color);
   background-image:
-    radial-gradient(circle at 0% 0%, rgba($maroon, 0.05), rgba($maroon, 0) 40%),
-    linear-gradient(180deg, #ffffff 0%, $page-bg 320px);
+    radial-gradient(circle at 0% 0%, var(--maroon-tint), rgba(0, 0, 0, 0) 40%),
+    linear-gradient(180deg, var(--maroon-page-top) 0%, var(--global-bg-color) 320px);
   background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -26,12 +25,12 @@ body {
    ========================================================================== */
 
 .masthead {
-  background: #ffffff;
-  border-bottom: 1px solid $border-color;
-  box-shadow: 0 1px 6px rgba($maroon, 0.08);
+  background: var(--maroon-surface);
+  border-bottom: 1px solid var(--global-border-color);
+  box-shadow: 0 1px 6px var(--maroon-tint);
 }
 
-/* the nav sits on the white masthead — keep it transparent so the bar
+/* the nav sits on the masthead surface — keep it transparent so the bar
    stays one uniform color (theme defaults it to the page background) */
 .greedy-nav {
   background: transparent;
@@ -49,7 +48,7 @@ body {
 
 /* recolor the theme's built-in hover underline to maroon (don't add a second one) */
 .greedy-nav .visible-links a:before {
-  background: $maroon-accent;
+  background: var(--maroon-accent);
   height: 2px;
 }
 
@@ -61,11 +60,11 @@ body {
   @include breakpoint($large) {
     [itemtype$="Person"] {
       padding: 1.25em 1.1em 1.5em;
-      background: #ffffff;
-      border: 1px solid $border-color;
-      border-top: 3px solid $maroon;
+      background: var(--maroon-surface);
+      border: 1px solid var(--global-border-color);
+      border-top: 3px solid var(--maroon);
       border-radius: 8px;
-      box-shadow: 0 4px 18px rgba($maroon, 0.07);
+      box-shadow: 0 4px 18px var(--maroon-tint);
     }
   }
 }
@@ -74,25 +73,25 @@ body {
   border-radius: 50%;
 
   @include breakpoint($large) {
-    border: 3px solid #fff;
-    box-shadow: 0 0 0 2px $maroon, 0 4px 12px rgba(0, 0, 0, 0.12);
+    border: 3px solid var(--maroon-surface);
+    box-shadow: 0 0 0 2px var(--maroon), 0 4px 12px rgba(0, 0, 0, 0.12);
     padding: 0;
   }
 }
 
 .sidebar .author__name {
   font-weight: 700;
-  color: $maroon;
+  color: var(--maroon-text);
 }
 
 .author__bio {
-  color: mix(#000, #fff, 55%);
+  color: var(--global-text-color-light);
 }
 
 /* social / contact links in the sidebar */
 .author__urls {
   a:hover {
-    color: $maroon-accent;
+    color: var(--maroon-accent);
     text-decoration: none;
   }
 
@@ -101,7 +100,7 @@ body {
   .fab,
   .far,
   .ai {
-    color: $maroon;
+    color: var(--maroon-text);
   }
 }
 
@@ -110,14 +109,14 @@ body {
    ========================================================================== */
 
 .page__title {
-  color: $maroon;
+  color: var(--maroon-text);
   letter-spacing: -0.3px;
 }
 
 .page__content {
   h2 {
-    color: mix(#000, $maroon, 8%);
-    border-bottom: 2px solid $border-color;
+    color: var(--maroon-text);
+    border-bottom: 2px solid var(--global-border-color);
     padding-bottom: 0.35em;
     position: relative;
   }
@@ -130,39 +129,39 @@ body {
     bottom: -2px;
     width: 60px;
     height: 2px;
-    background: $maroon;
+    background: var(--maroon);
   }
 
   h3 {
-    color: mix(#000, $maroon, 12%);
+    color: var(--maroon-text);
   }
 
   a {
-    text-decoration-color: rgba($maroon-accent, 0.35);
+    text-decoration-color: var(--maroon-accent);
     text-underline-offset: 2px;
 
     &:hover {
-      text-decoration-color: $maroon-accent;
+      text-decoration-color: var(--maroon-accent);
     }
   }
 }
 
 /*
-   Buttons — fix the theme's broken hover states, give a maroon identity
+   Buttons — give the theme buttons a maroon identity
    ========================================================================== */
 
 .btn:hover {
-  background-color: $maroon-accent;
+  background-color: var(--maroon-accent);
 }
 
 .btn--inverse {
-  color: $maroon !important;
-  border: 1px solid $border-color !important;
+  color: var(--maroon-text) !important;
+  border: 1px solid var(--global-border-color) !important;
 
   &:hover {
     color: #fff !important;
-    background-color: $maroon;
-    border-color: $maroon !important;
+    background-color: var(--maroon);
+    border-color: var(--maroon) !important;
   }
 }
 
@@ -175,22 +174,20 @@ body {
 
   &:hover {
     color: #fff;
-    background-color: $maroon;
-    border-color: $maroon;
+    background-color: var(--maroon);
+    border-color: var(--maroon);
   }
 }
 
 /*
-   Footer
+   Footer — maroon top rule (background comes from --global-footer-bg-color)
    ========================================================================== */
 
 .page__footer {
-  background-color: #fff;
-  border-top: 3px solid $maroon;
-  color: mix(#000, #fff, 45%);
+  border-top: 3px solid var(--maroon);
 
   a:hover {
-    color: $maroon-accent;
+    color: var(--maroon-accent);
     text-decoration: none;
   }
 }
@@ -201,16 +198,16 @@ body {
 
 .archive__item-title {
   a:hover {
-    color: $maroon-accent;
+    color: var(--maroon-accent);
   }
 }
 
 .archive__subtitle {
-  color: $maroon;
-  border-bottom: 1px solid $border-color;
+  color: var(--maroon-text);
+  border-bottom: 1px solid var(--global-border-color);
 }
 
 /* selection color */
 ::selection {
-  background: rgba($maroon-accent, 0.18);
+  background: var(--maroon-tint);
 }

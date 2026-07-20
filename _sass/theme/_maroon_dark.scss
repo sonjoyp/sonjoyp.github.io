@@ -1,0 +1,62 @@
+/* ==========================================================================
+    MAROON THEME - DARK VERSION  (Texas A&M "Aggie Maroon")
+    ========================================================================== */
+
+/* Color codes used for the theme */
+$primary-color              : #b3454e;
+$gray                       : #7a8288;
+$dark-gray                  : mix(#000, $gray, 40%);
+$darker-gray                : mix(#000, $gray, 60%);
+$light-gray                 : mix(#fff, $gray, 50%);
+
+$background                 : #1e1a1a;
+$background-light           : mix(#fff, $background, 80%);
+$background-lighter         : mix(#fff, $background, 90%);
+$text                       : #f2efec;
+
+/* Color codes used for the site */
+$danger-color               : #ee5f5b;
+$info-color                 : #2f7f93;
+$notice-color               : #7a8288;
+$success-color              : #62c462;
+$warning-color              : #f89406;
+
+/* Other basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Dark maroon theme for the site.
+   Code blocks intentionally keep a light background so the syntax
+   highlighting (tuned for a light surface) stays legible. */
+html[data-theme="dark"] {
+    --global-base-color                 : #{$primary-color};
+    --global-bg-color                   : #{$background};
+    --global-footer-bg-color            : #241d1d;
+    --global-border-color               : #4a4040;
+    --global-dark-border-color          : #5c5050;
+    --global-code-background-color      : #fafafa;
+    --global-code-text-color            : #{$darker-gray};
+    --global-fig-caption-color          : #b8afab;
+    --global-link-color                 : #e0949c;
+    --global-link-color-hover           : #eeb4ba;
+    --global-link-color-visited         : #c98a92;
+    --global-masthead-link-color        : #{$text};
+    --global-masthead-link-color-hover  : #e0949c;
+    --global-text-color                 : #{$text};
+    --global-text-color-light           : #b8afab;
+    --global-thead-color                : #2f2727;
+
+    /* Aggie Maroon identity (consumed by _custom.scss) */
+    --maroon                            : #a3323d;
+    --maroon-text                       : #e0949c;
+    --maroon-accent                     : #eeb4ba;
+    --maroon-surface                    : #2a2323;
+    --maroon-tint                       : rgba(179, 69, 78, 0.07);
+    --maroon-page-top                   : #241d1d;
+}

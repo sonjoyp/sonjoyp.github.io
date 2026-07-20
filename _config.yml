@@ -8,6 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
+site_theme               : "maroon" # custom Aggie Maroon theme (see _sass/theme/_maroon_light.scss / _maroon_dark.scss). Stock options: "default", "air", "sunrise", "mint", "dirt", "contrast"
 title                    : "Sonjoy's Homepage"
 title_separator          : "-"
 name                     : &name "Sonjoy Kumar Paul"
