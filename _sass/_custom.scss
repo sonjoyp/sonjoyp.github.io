@@ -188,9 +188,32 @@ body {
 .page__footer {
   border-top: 3px solid var(--maroon);
 
+  /* Snug the bar around its single line of copyright. The stock spacing
+     (margin-top 1em + padding-bottom 1em) was sized for a two-line copyright
+     plus the social row, neither of which this site has. */
+  footer {
+    margin-top: 0;
+    padding: 0.7em 1em;
+  }
+
   a:hover {
     color: var(--maroon-accent);
     text-decoration: none;
+  }
+}
+
+/* The footer is position:fixed, so body padding-bottom reserves the space it
+   occupies. Stock 9em was sized for the taller footer and left a large gap
+   above it; match the compact bar instead. */
+body {
+  padding-bottom: 4.5em;
+}
+
+@media screen and (max-width: 768px) {
+  /* the footer is position:relative here (in normal flow), so reserving
+     space below it would just add trailing blank space */
+  body {
+    padding-bottom: 0;
   }
 }
 
