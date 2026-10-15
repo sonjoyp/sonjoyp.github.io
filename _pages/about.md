@@ -19,9 +19,9 @@ Before my Ph.D. journey, I spent five years as a C++ software engineer (most rec
 </div>
 
 ## News
-- **October, 2026:** Presented our BrainPhone poster at the **Texas A&M Global Cyber Research Institute Annual Summit 2026**.
+- **October, 2026:** Presented our BrainPhone poster at the **[Texas A&M Global Cyber Research Institute Summit 2026](https://gcri.tamu.edu/)**.
 
-- **September, 2026:** Presented our BrainPhone poster at the **Texas Security Workshop 2026** at [The University of Texas at Dallas](https://www.utdallas.edu/).
+- **September, 2026:** Presented our BrainPhone poster at the **[Texas Security Workshop 2026](https://texassecurityworkshop.org/)** at [The University of Texas at Dallas](https://www.utdallas.edu/).
 
 - **December, 2025:** Our paper *"[SoK: PHILTER: Uncovering Security and Functional Gaps in AI-based Phishing Website Detection Literature via an LLM-based Reasoning Framework](https://sonjoyp.github.io/assets/papers/SoK_PHILTER_Alam_2026.pdf)"* has been accepted to **35th USENIX Security Symposium, August 2026**.
 
