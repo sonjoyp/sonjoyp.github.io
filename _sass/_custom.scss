@@ -182,18 +182,20 @@ body {
 }
 
 /*
-   Footer — maroon top rule (background comes from --global-footer-bg-color)
+   Footer — kept quiet: a hairline rule instead of a maroon bar, on a
+   background (--global-footer-bg-color) that matches the page in both maroon
+   themes, so the pinned bar doesn't compete with the content above it
    ========================================================================== */
 
 .page__footer {
-  border-top: 3px solid var(--maroon);
+  border-top: 1px solid var(--global-border-color);
 
-  /* Snug the bar around its single line of copyright. The stock spacing
-     (margin-top 1em + padding-bottom 1em) was sized for a two-line copyright
-     plus the social row, neither of which this site has. */
+  /* Snug the bar around its single line of copyright (~32px tall). The stock
+     spacing (margin-top 1em + padding-bottom 1em) was sized for a two-line
+     copyright plus the social row, neither of which this site has. */
   footer {
     margin-top: 0;
-    padding: 0.7em 1em;
+    padding: 0.35em 1em;
   }
 
   a:hover {
@@ -206,7 +208,7 @@ body {
    occupies. Stock 9em was sized for the taller footer and left a large gap
    above it; match the compact bar instead. */
 body {
-  padding-bottom: 4.5em;
+  padding-bottom: 3.5em;
 }
 
 @media screen and (max-width: 768px) {
