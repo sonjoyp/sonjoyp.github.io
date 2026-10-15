@@ -9,7 +9,7 @@ author_profile: true
 
 ***
 Responsibilities:
-- I am currently working under the guidance of [Dr. Nitesh Saxena](https://nsaxena.engr.tamu.edu/) at the [SPIES Research Lab](https://spies.engr.tamu.edu/).
+- I am currently working under the guidance of [Dr. Nitesh Saxena](https://nsaxena.engr.tamu.edu/) at the [Security and Privacy in Intelligent Emerging Systems (SPIES) Lab](https://spies.engr.tamu.edu/).
 - Conducting advanced research in Cybersecurity, Neuro Security and Brainwave Privacy.
 - Co-authored SoK studies on AI-based phishing detection (USENIX Security 2026) and toll scam infrastructure (eCrime 2025).
 - Developed Cogni-Watch, a cognitive-aware security framework detecting warning miscomprehension in real time via gaze and cursor dynamics (under review).

@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Howdy! I am [Sonjoy Kumar Paul](https://www.linkedin.com/in/sonjoy-kumar-paul-9115b6b2/), a third-year Ph.D. student in the Department of Computer Science and Engineering at [Texas A&M University](https://www.tamu.edu/), advised by [Dr. Nitesh Saxena](https://nsaxena.engr.tamu.edu/) in the SPIES — [Security and Privacy In Emerging computing and networking Systems](https://spies.engr.tamu.edu/) — research lab. My research sits at the intersection of **cybersecurity, cognitive security, and brainwave privacy**, with broader interests in usable security, end-to-end encrypted (E2EE) messaging, and neuro-security. I design attacks and defenses that connect human cognition with system security — for example, inferring speech and identity from consumer brain–computer interface (BCI) headsets, detecting whether users actually comprehend security warnings from their gaze and cursor dynamics, and uncovering device-linking weaknesses in E2EE messengers.
+Howdy! I am [Sonjoy Kumar Paul](https://www.linkedin.com/in/sonjoy-kumar-paul-9115b6b2/), a third-year Ph.D. student in the Department of Computer Science and Engineering at [Texas A&M University](https://www.tamu.edu/), advised by [Dr. Nitesh Saxena](https://nsaxena.engr.tamu.edu/) in the [Security and Privacy in Intelligent Emerging (computing and networking) Systems (SPIES) Lab](https://spies.engr.tamu.edu/). My research sits at the intersection of **cybersecurity, cognitive security, and brainwave privacy**, with broader interests in usable security, end-to-end encrypted (E2EE) messaging, and neuro-security. I design attacks and defenses that connect human cognition with system security — for example, inferring speech and identity from consumer brain–computer interface (BCI) headsets, detecting whether users actually comprehend security warnings from their gaze and cursor dynamics, and uncovering device-linking weaknesses in E2EE messengers.
 
 My work has been published at venues including **USENIX Security** and the **APWG eCrime**, with five additional papers currently under review.
 
@@ -19,6 +19,10 @@ Before my Ph.D. journey, I spent five years as a C++ software engineer (most rec
 </div>
 
 ## News
+- **October, 2026:** Presented our BrainPhone poster at the **Texas A&M Global Cyber Research Institute Annual Summit 2026**.
+
+- **September, 2026:** Presented our BrainPhone poster at the **Texas Security Workshop 2026** at [The University of Texas at Dallas](https://www.utdallas.edu/).
+
 - **December, 2025:** Our paper *"[SoK: PHILTER: Uncovering Security and Functional Gaps in AI-based Phishing Website Detection Literature via an LLM-based Reasoning Framework](https://sonjoyp.github.io/assets/papers/SoK_PHILTER_Alam_2026.pdf)"* has been accepted to **35th USENIX Security Symposium, August 2026**.
 
 - **September, 2025:** Our paper *"[Infrastructure Patterns in Toll Scam Domains: A Comprehensive Analysis of Cybercriminal Registration and Hosting Strategies](https://sonjoyp.github.io/assets/papers/Infrastructure_Toll_Scam_Munny_2025.pdf)"* has been accepted to **APWG’s Symposium on Electronic Crime Research (eCrime 2025)**.
